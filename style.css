@@ -7,12 +7,13 @@ html, body {
 img {max-width: 100%;}
 
 body {
-      display: grid;
-      font-family: "Segoe UI", sans-serif;
-      grid-template-columns: repeat(12, 1fr);
-      grid-auto-rows: minmax(auto, auto);
-      color: #3e3e3e;
-      text-shadow: 0.4px 0.4px 0.4px rgba(0,0,0,.2);
+     height: 100vh;
+     width: 100vh;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
 }
 
 h1 {
